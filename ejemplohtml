@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="configuracionJ.js" type="text/javascript"></script>
+    
+    <title>Elemento 89</title>
+
+    <link rel="icon" href="iconoelem.JPG" 
+        type= "image/jpg">
+
+
+</head>
+<style>
+
+    model-viewer {
+        width: 300px;
+        height: 300px;
+    }
+</style> 
+
+<body>
+    <div class="content">
+    <div class="posicionencabezado">
+        <script src="configuracioneJ.js" type="text/javascript"></script></div>
+
+    <div class="posicion3d">
+    <model-viewer src="Actinio.glb" 
+                  ar ar-modes="scene-viewer webxr quick-look" 
+                  camera-controls 
+                  environment-image="neutral" 
+                  poster="poster.webp" 
+                  shadow-intensity="1" 
+                  auto-rotate
+                  border-box= 200%
+                  field-of-view= 60deg
+                  >
+
+        <div class="progress-bar hide" slot="progress-bar">
+            <div class="update-bar"></div>
+        </div>
+        <button slot="ar-button" id="ar-button">
+            Activa realidad aumentada
+        </button>
+        <div id="ar-prompt">
+        </div>
+    </model-viewer>
+    
+    <script 
+    type="module" 
+    src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"
+    ></script>
+    </div>
+
+    <div class="posiciontexto">
+    <p><b>Número atómico: </b>89</p>
+    <p> <b>Peso atómico:  </b>(227)<p>
+    <p><b>   Punto de fusión: </b>1050°C <p>
+ <p>  <b>  Estados de oxidación comunes: </b>+3  <p>
+    <p> <b>  Número de electrones de valencia:   </b>3<p>
+        <p> El uso del actinio es casi exclusivo para investigaciones científicas. La radiactividad del actinio es del orden de 150 veces la del radio, haciéndolo útil como fuente de neutrones
+    </p>
+    <h3>Lentech. (2015). Tabla periódica de los elementos. 20 de octubre de 2021, de Lentech Sitio web: 
+        https://www.lenntech.es/periodica/numero/n%C3%BAmero-atomico.html
+    </h3>
+     </div>
+ 
+     <div class="back">
+        <a href="https://smert1080.github.io/Tabla-periodica/Tabla.html">
+        <button class="boton cinco">
+        <div class="icono">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-left-circle" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-4.5-.5a.5.5 0 0 1 0 1H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5H11.5z"/>
+            </svg>
+        </div>
+        <span>Tabla periódica</span> </button>
+    
+    </div> 
+    </a>
+
+    <div class="titulo">
+        <h1>Actinio </h1>
+    </div>
+
+
+<div class="autor">
+    <h2>Jorge Cuellar Castillo </h2>
+</div>
+
+
+    </div>
+</body>
+
+    </html>
