@@ -1,26 +1,18 @@
-import 'dart:io';
 import 'dart:html';
 
-void main()
-{
-    // This statement will call geeksForGeeks function when concat
-    // button is clicked...
-    querySelector('#concat')!.onClick.listen(geeksForGeeks);
+void main() {
+    
+    querySelector('#concat')?.onClick.listen(funcion);
 }
   
-// Function taking all the three strings,
-// concating them and displaying inside h3 tag...
-void geeksForGeeks(MouseEvent e)
+
+void funcion(MouseEvent e)
 {
     String? s1 = (querySelector('#name') as InputElement).value;
     String? s2 = (querySelector('#num') as InputElement).value;
     
-  
-  new Directory('farm${s2}').create(recursive: true)
-    .then((Directory directory) {
-      print(directory.path);
-    });
 
-    querySelector('#output')?.text = s1;
-    
+    querySelector('#output')?.text = 'farmacia registrada: $s1';
+
+
 }
